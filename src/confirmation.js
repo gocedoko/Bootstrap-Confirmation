@@ -58,9 +58,9 @@ const Default = {
   buttons             : [],
   // @formatter:off
   template            : `
-<div class="popover background">
-  <div class="popover confirmation">
-    <div class="arrow"></div>
+<div class="popover-background" style="background: rgba(0, 0, 0, 0.6); position: fixed; width: 100%; height: 100%;  top:0; left: 0;">
+  <style>.popover-background { transform: none!important; will-change: unset; }</style>
+  <div class="popover confirmation" style="position: absolute; top:35%; left: 50%; transform: translate(-50%, -50%);">
     <h3 class="popover-header"></h3>
     <div class="popover-body">
       <p class="confirmation-content"></p>
