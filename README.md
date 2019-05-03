@@ -1,13 +1,8 @@
 # Bootstrap-Confirmation
 
-[![npm version](https://img.shields.io/npm/v/bootstrap-confirmation2.svg?style=flat-square)](https://www.npmjs.com/package/bootstrap-confirmation2)
-[![jsDelivr CDN](https://data.jsdelivr.com/v1/package/npm/bootstrap-confirmation2/badge)](https://www.jsdelivr.com/package/npm/bootstrap-confirmation2)
-[![Build Status](https://img.shields.io/travis/mistic100/Bootstrap-Confirmation/master.svg?style=flat-square)](https://travis-ci.org/mistic100/Bootstrap-Confirmation)
-[![Dependencies Status](https://david-dm.org/mistic100/Bootstrap-Confirmation/status.svg?style=flat-square)](https://david-dm.org/mistic100/Bootstrap-Confirmation)
+Fork of the Bootstrap plugin for on-place confirm boxes using Popover. It positions the confirmation box in the center, without the arrow, and adds a transparent background covering the rest of the page. The rest is identical to the original plugin.
 
-Bootstrap plugin for on-place confirm boxes using Popover.
-
-## Documentation
+## Documentation (Of the original project)
 
 [bootstrap-confirmation.js.org](http://bootstrap-confirmation.js.org)
 
