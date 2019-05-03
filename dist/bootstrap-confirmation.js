@@ -128,7 +128,7 @@
     btnCancelIconContent: '',
     buttons: [],
     // @formatter:off
-    template: "\n<div class=\"popover-background\" style=\"background: rgba(0, 0, 0, 0.6); position: fixed; width: 100%; height: 100%;  top:0; left: 0;\">\n  <style>.popover-background { transform: none!important; will-change: unset; }</style>\n  <div class=\"popover confirmation\" style=\"position: absolute; top:35%; left: 50%; transform: translate(-50%, -50%);\">\n    <h3 class=\"popover-header\"></h3>\n    <div class=\"popover-body\">\n      <p class=\"confirmation-content\"></p>\n      <div class=\"confirmation-buttons text-center\">\n        <div class=\"btn-group\"></div>\n      </div>\n    </div>\n  </div>\n</div>" // @formatter:on
+    template: "\n<div class=\"popover-background\" style=\"background: rgba(0, 0, 0, 0.6); position: fixed; width: 100%; height: 100%;  top:0; left: 0;\">\n  <style>.popover-background { transform: none!important; will-change: unset; }</style>\n  <div class=\"popover confirmation\" style=\"position: sticky; top:35%; left: 50%; transform: translate(-50%, -50%);\">\n    <h3 class=\"popover-header\"></h3>\n    <div class=\"popover-body\">\n      <p class=\"confirmation-content\"></p>\n      <div class=\"confirmation-buttons text-center\">\n        <div class=\"btn-group\"></div>\n      </div>\n    </div>\n  </div>\n</div>" // @formatter:on
 
   });
 
