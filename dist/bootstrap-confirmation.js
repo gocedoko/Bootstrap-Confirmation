@@ -128,7 +128,7 @@
     btnCancelIconContent: '',
     buttons: [],
     // @formatter:off
-    template: "\n<div class=\"popover confirmation\">\n  <div class=\"arrow\"></div>\n  <h3 class=\"popover-header\"></h3>\n  <div class=\"popover-body\">\n    <p class=\"confirmation-content\"></p>\n    <div class=\"confirmation-buttons text-center\">\n      <div class=\"btn-group\"></div>\n    </div>\n  </div>\n</div>" // @formatter:on
+    template: "\n<div class=\"popover background\">\n  <div class=\"popover confirmation\">\n    <div class=\"arrow\"></div>\n    <h3 class=\"popover-header\"></h3>\n    <div class=\"popover-body\">\n      <p class=\"confirmation-content\"></p>\n      <div class=\"confirmation-buttons text-center\">\n        <div class=\"btn-group\"></div>\n      </div>\n    </div>\n  </div>\n</div>" // @formatter:on
 
   });
 
@@ -398,13 +398,13 @@
 
     _proto._setStandardButtons = function _setStandardButtons($tip) {
       var buttons = [{
-        class: this.config.btnOkClass,
+        "class": this.config.btnOkClass,
         label: this.config.btnOkLabel,
         iconClass: this.config.btnOkIconClass,
         iconContent: this.config.btnOkIconContent,
         attr: this.config._attributes
       }, {
-        class: this.config.btnCancelClass,
+        "class": this.config.btnCancelClass,
         label: this.config.btnCancelLabel,
         iconClass: this.config.btnCancelIconClass,
         iconContent: this.config.btnCancelIconContent,
@@ -425,7 +425,7 @@
       var self = this;
       var $group = $tip.find(Selector.BUTTONS).empty();
       buttons.forEach(function (button) {
-        var btn = $('<a href="#"></a>').addClass(BTN_CLASS_BASE).addClass(button.class || BTN_CLASS_DEFAULT + " btn-secondary").html(button.label || '').attr(button.attr || {});
+        var btn = $('<a href="#"></a>').addClass(BTN_CLASS_BASE).addClass(button["class"] || BTN_CLASS_DEFAULT + " btn-secondary").html(button.label || '').attr(button.attr || {});
 
         if (button.iconClass || button.iconContent) {
           btn.prepend($('<i></i>').addClass(button.iconClass || '').text(button.iconContent || ''));

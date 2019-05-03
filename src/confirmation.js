@@ -58,13 +58,15 @@ const Default = {
   buttons             : [],
   // @formatter:off
   template            : `
-<div class="popover confirmation">
-  <div class="arrow"></div>
-  <h3 class="popover-header"></h3>
-  <div class="popover-body">
-    <p class="confirmation-content"></p>
-    <div class="confirmation-buttons text-center">
-      <div class="btn-group"></div>
+<div class="popover background">
+  <div class="popover confirmation">
+    <div class="arrow"></div>
+    <h3 class="popover-header"></h3>
+    <div class="popover-body">
+      <p class="confirmation-content"></p>
+      <div class="confirmation-buttons text-center">
+        <div class="btn-group"></div>
+      </div>
     </div>
   </div>
 </div>`,
